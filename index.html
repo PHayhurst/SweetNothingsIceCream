@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Emilys+Candy&family=Itim&display=swap" rel="stylesheet">
+        <title>Sweet Nothings Ice Cream</title>
+    </head>
+    <body>
+        <section id="home">
+            <header class="header" id="header">
+                <div class="logo"><img id="header-img" class="header-img" src="https://www.freeiconspng.com/uploads/ice-cream-cone-png-28.png" alt="ice cream shop banner"></div>
+                <h1 class="header-title">Sweet Nothings Ice Cream Shop</h1>
+                <nav class="navbar" id="nav-bar">
+                    <ul class="link-list">
+                        <li class="nav-link"><a href="#home">Home</a></li>
+                        <li class="nav-link"><a href="#menu">Menu</a></li>
+                        <li class="nav-link"><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </section>
+        <section id="video" class="video">
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/O2Au0SXlATM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <section id="menu" class="menu-container">
+            <div class="menu-card">
+                <h2 class="menu-item-title">Milkshakes</h2>
+                <p class="menu-item-description">Hand spun Milkshakes, made with any of our many ice cream flavours!</p>
+                <div class="menu-item-price">$4.99</div>
+            </div>
+            <div class="menu-card">
+                <h2 class="menu-item-title">Ice Cream Cones</h2>
+                <p class="menu-item-description">Your choice of any of our famous Ice Cream in Sugar, Waffle, or Regular cone</p>
+                <div class="menu-item-price">$3.99</div>
+            </div>
+            <div class="menu-card">
+                <h2 class="menu-item-title">Ice Cream Sundaes</h2>
+                <p class="menu-item-description">Your choice of any of our famous Ice Cream flavours serviced in a Banana split, topped with whip cream and cherries</p>
+                <div class="menu-item-price">$7.99</div>
+            </div>
+        </section>
+        <section class="menu-container">
+            <div class="menu-card flavours">
+                <h2 class="menu-item-title">Flavours</h2>
+                <table class="menu-item-description flavours">
+                    <tr>
+                        <td class="menu-flavour">Chocolate</td>
+                        <td class="menu-flavour">Strawberry</td>
+                        <td class="menu-flavour">Vanilla</td>
+                    </tr>
+                    <tr>
+                        <td class="menu-flavour">Rocky Road</td>
+                        <td class="menu-flavour">Banana</td>
+                        <td class="menu-flavour">Tiger Tail</td>
+                    </tr>
+                    <tr>
+                        <td class="menu-flavour">Moose Tracks</td>
+                        <td class="menu-flavour">Cherry</td>
+                        <td class="menu-flavour">Raspberry Cheesecake</td>
+                    </tr>
+                    <tr>
+                        <td class="menu-flavour">Bubblegum</td>
+                        <td class="menu-flavour">Cotton Candy</td>
+                        <td class="menu-flavour">Moon Mist</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <footer id="footer" class="menu-container">
+            <div id="contact" class="menu-card form-container">
+                <h2 class="menu-item-title">Contact</h2>
+                <form class="menu-item-description" id="form" action="https://www.freecodecamp.com/email-submit">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input class="input" type="text" id="name" placeholder="Your Name Here..." required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" >Email:</label>
+                        <input class="input" type="email" id="email" placeholder="Your Email Here..." required>
+                    </div>
+                    <div class="form-group comment-box">
+                        <label for="comments">Comments:</label>
+                        <textarea class="comments input" placeholder="Your Comments Here..."></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" id="submit" class="submit-btn">
+                            Submit
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </footer>                        
+    </body>
+</html>

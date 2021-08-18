@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#home:target {
+    padding-bottom: 1px;
+}
+
+#menu:target {
+    padding-top: 150px;
+}
+
+#contact:target {
+    padding-top: 40px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #fff1e6;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px 50px;
+    background-color: #ffe8d6;    
+}
+
+.header-title {
+    font-family: 'Emilys Candy', cursive;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.header-img {
+    width: 125px;
+    height: auto;
+}
+
+.navbar {
+    font-family: 'Emilys Candy', cursive;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: #6b705c;
+}
+
+.link-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.link-list a {
+    text-decoration: none;
+    margin-right: 2.25rem;
+    color: inherit;
+}
+
+
+.link-list a:hover {
+    color: #cb997e;
+}
+
+.link-list a:focus {
+    color: #cb997e;
+}
+
+.video {
+    margin-top: 150px;
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.menu-item-title, .menu {
+    font-size: 2.75rem;
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    padding-bottom: 1.5rem;
+}
+
+.menu-card {
+    background-color: #fefae0;
+    border: 3px solid #7f5539;
+    border-radius: 10px;
+    width: 28%;
+    padding: 1.6rem;
+}
+
+.menu-item-description {
+    background-color: #fefefe;
+    border-radius: 10px;
+    border: 2px dashed #ffadad;
+    padding: 1.25rem;
+    font-size: 2.25rem;
+    line-height: 1.4em;
+    min-height: 325px;
+    font-family: 'Itim', cursive;
+}
+
+.menu-item-price {
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    font-size: 2.4rem;
+    font-family: 'Emilys Candy', cursive;
+}
+
+.flavours {
+    table-layout: fixed;
+    width: 95%;
+    margin: auto;
+}
+
+.menu-card.flavours {
+    padding-bottom: 80px;
+}
+
+.menu-flavour {
+    text-align: center;
+    vertical-align: middle;    
+}
+
+.submit-btn {
+    background-color: #ffadad;
+    font-family: 'Itim', cursive;
+    font-size:xx-large;
+    outline: none;
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+    border-radius: 10px;
+}
+
+label {
+    padding-right: 1.5rem;
+}
+
+.form-container {
+    min-width: 50%;
+}
+
+.form-group {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    padding: .3rem 1rem;
+    border: 2px solid black;
+    outline: none;
+}
+
+.input:focus {
+    border: 2px solid #777;
+}
+
+.submit-btn:focus {
+    background-color: #ffadad93;
+}
+
+.comments {
+    resize: none;
+    min-height: 200px;
+}
+
+label {
+    min-width: 200px;
+}
+
+@media (max-width: 700px) {
+
+    .header {
+        padding: 0;
+    }
+    .header-img {
+        width: 60px;
+        height: auto;
+    }
+    .header-title, .navbar {
+        font-size: 1.25rem;
+    }
+    .link-list a {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .video {
+        display: none;
+    }
+
+    .menu-container {
+        margin: 50px 10px;
+        flex-wrap: wrap;
+    }
+    .menu-card {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+    .flavours {
+        font-size: 1.25rem;
+    }    
+    .input {
+        font-size: 1rem;
+    }
+    
+}
+
