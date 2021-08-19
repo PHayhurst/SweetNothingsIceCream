@@ -227,3 +227,60 @@ label {
     
 }
 
+@media (max-width: 450px) {
+
+    .header {
+        padding: 0;
+    }
+    .header-img {
+        width: 60px;
+        height: auto;
+    }
+    .header-title, .navbar {
+        font-size: 1rem;
+    }
+    .link-list a {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .video {
+        display: none;
+    }
+
+    .menu-item-description {
+        background-color: #fefefe;
+        border-radius: 10px;
+        border: 2px dashed #ffadad;
+        padding: 1.25rem;
+        font-size: 2rem;
+        line-height: 1.2em;
+    }
+
+    .menu-container {
+        margin: 50px 10px;
+        flex-wrap: wrap;
+    }
+    .menu-card {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+    .flavours {
+        font-size: 1rem;
+    }    
+    .form-group {
+        font-size: 1.45rem;
+    }
+
+    label {
+        padding-right: 0;
+        display: none;
+    }
+
+    .input {
+        min-width: 200px;
+    }
+
+    
+}
+
